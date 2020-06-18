@@ -1,0 +1,65 @@
+.searchField {
+  display: inline-block;
+  background: #fdfafa;
+  border: 0.5px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.searchField input {
+  border: none;
+  padding: 0;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.SearchBtn {
+  width: 150px;
+  height: 45px;
+  background: #ff0000;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.SearchBtnContent {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Ripple effect */
+/* .ripple {
+  background-position: center;
+  transition: background 0.8s;
+} */
+.ripple:hover {
+  background: #f03e3e radial-gradient(circle, transparent 1%, #ff0000 1%)
+    center/15000%;
+}
+.ripple:active {
+  background-color: #f77272;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+.ripple {
+  width: 150px;
+  height: 45px;
+  background: #ff0000;
+  border: 0px;
+  /* box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.043); */
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  background-position: center;
+  transition: background 0.8s;
+}

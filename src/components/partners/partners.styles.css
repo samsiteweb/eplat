@@ -1,0 +1,40 @@
+.partnerContainer {
+  margin-top: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.partnerBtn {
+  width: 150px;
+  height: 38px;
+  background: linear-gradient(90deg, #01bcf6 0%, #286dce 100%);
+  box-shadow: 0px 2px 4px rgba(79, 122, 237, 0.25);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partnerBtnLabel {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.partnerSvg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background: green; */
+  width: 100%;
+}
+
+.partnerSvg img {
+  width: 60px;
+  margin: 5px;
+  /* padding: 30px; */
+  /* padding: 0px 30px 30px 0px; */
+}

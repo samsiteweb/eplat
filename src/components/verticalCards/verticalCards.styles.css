@@ -1,0 +1,18 @@
+.verticalCards {
+  width: 180px;
+  height: 100px;
+  margin-right: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}

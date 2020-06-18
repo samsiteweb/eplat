@@ -1,0 +1,46 @@
+.tabContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tabTitleLine {
+  width: 20px;
+  height: 5px;
+
+  background: #ff0000;
+  border-radius: 5px;
+}
+
+.tabTitle {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.tabSelectorContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tabSelector {
+  height: 30px;
+  margin: 10px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.tabSelectorActive {
+  height: 30px;
+  margin: 10px;
+  border-bottom: 2px solid red;
+  font-size: 12px;
+}
+
+.tabTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.tabPanContainer {
+  display: flex;
+  justify-content: space-between;
+}
